@@ -1,0 +1,769 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>boxcomponents</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- fin favicon -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </head>
+  <body id="body">
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+	  <div class="navbar-brand">
+	    <a class="content-logo notranslate" href="#">
+	      <img class="logo-box" src="img/logo-box.svg" width="56" height="14">
+	      <span class="logo-text1">box</span>
+	      <span class="logo-text2">components</span>
+	    </a>
+
+	    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+	      <span aria-hidden="true"></span>
+	      <span aria-hidden="true"></span>
+	      <span aria-hidden="true"></span>
+	    </a>
+	  </div>
+
+	  <div id="navbarBasicExample" class="navbar-menu">
+	    <div class="navbar-end">
+	      <div class="navbar-item">
+		  <label class="button button-darkmode">
+		    <input type="checkbox">
+		    <i class="fas fa-moon navbar-button--moon"></i>
+		    <span class="iconify navbar-button--sun" data-icon="akar-icons:sun-fill"></span>
+		  </label>
+	      </div>
+	      <a class="navbar-item notranslate navbar-item--home home">
+		Home
+	      </a>
+
+	      <a class="navbar-item">
+		Documentation
+	      </a>
+
+	      <div class="navbar-item has-dropdown is-hoverable">
+		<a class="navbar-link">
+		  Components
+		</a>
+
+		<div class="navbar-dropdown bd-opciones">
+		  <a class="navbar-item bd-opciones-link">
+		    Headers
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Buttons
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Cursors
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Cards
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Forms
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Calendars
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Dropdown
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    E 404
+		  </a>
+		  <a class="navbar-item bd-opciones-link">
+		    Animated
+		  </a>
+		  <hr class="navbar-divider">
+		  <a class="navbar-item bd-opciones-link">
+		    All
+		  </a>
+		</div>
+	      </div>
+	    </div>
+
+	  </div>
+	</nav>
+
+	<main class="main">
+	    <section class="main-section--portada">
+		<div class="portada-text">
+		    <h1 class="portada-text--title">A <span class="portada-text--title--span1">free repository</span> components for your <span class="portada-text--title--span2">wordpress</span> site</h1>
+		    <p class="portada-text--parrafo">Open source UI templates and components ready to implement on your website.</p>
+		    <div class="portada-content--search">
+			<div class="field has-addons portada-search">
+			  <div class="control portada-search--input">
+			    <input class="input portada-search--input--text" type="text" placeholder="Components search">
+			  </div>
+			  <div class="control portada-search--button">
+			    <a class="button is-primary portada-search--button--a">
+				<span class="icon is-medium">
+				   <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+				</span>
+			    </a>
+			  </div>
+			</div>
+		    </div>
+		</div>
+		<div class="portada-image">
+		    <img src="img/portada-illustration.svg" alt="svg imagen laptop wordpress code i love">
+		</div>
+	    </section>
+
+	    <div class="bd-focus">
+	        <div class="container bd-focus-container">
+		    <nav class="columns is-multiline">
+			<a class="bd-focus-item bd-focus-item--1 column is-half-tablet is-one-quarter-widescreen" href="">
+			    <div class="bd-focus-graph">
+				<div class="bd-focus-device"></div>
+			    </div>
+			    <div class="bd-focus-text">
+				<p class="title is-4">100% Responsive</p>
+				<p class="subtitle is-6">Designed for <strong>mobile</strong> first</p>
+			    </div>
+			</a>
+			<a class="bd-focus-item column is-half-tablet is-one-quarter-widescreen" href="">
+			    <div class="bd-focus-graph">
+				<figure class="bd-focus-cubes bd-focus-icon">
+				    <span class="bd-focus-cube bd-focus-cube-1 icon is-large">
+					<i class="fa-solid fa-cube fa-2x"></i>
+				    </span>
+				    <span class="bd-focus-cube bd-focus-cube-2 icon is-large">
+					<i class="fa-solid fa-cube fa-2x"></i>
+				    </span>
+				    <span class="bd-focus-cube bd-focus-cube-3 icon is-large">
+					<i class="fa-solid fa-cube fa-2x"></i>
+				    </span>
+				</figure>
+			    </div>
+			    <div class="bd-focus-text">
+				<p class="title is-4">Custom</p>
+				<p class="subtitle is-6">modify everything you <strong>need</strong></p>
+			    </div>
+			</a>
+			<a class="bd-focus-item column is-half-tablet is-one-quarter-widescreen" href="">
+			    <div class="bd-focus-graph">
+				<figure class="bd-focus-icon">
+				    <span class="bd-focus-css3 icon is-large">
+					<i class="fa-brands fa-3x fa-css3"></i>
+				    </span>
+				</figure>
+			    </div>
+			    <div class="bd-focus-text">
+				<p class="title is-4">Modern</p>
+				<p class="subtitle is-6">Built with <strong>Flexbox</strong></p>
+			    </div>
+			</a>
+			<a class="bd-focus-item column is-half-tablet is-one-quarter-widescreen" href="">
+			    <div class="bd-focus-graph">
+				<figure class="bd-focus-icon">
+				    <span class="bd-focus-github icon is-large">
+					<i class="fa-brands fa-3x fa-github-alt"></i>
+				    </span>
+				</figure>
+			    </div>
+			    <div class="bd-focus-text">
+				<p class="title is-4">Free</p>
+				<p class="subtitle is-6">Open source on <strong>GitHub</strong></p>
+			    </div>
+			</a>
+		    </nav>
+		</div>
+	    </div>
+	    <div class="bd-sample">
+		<div class="bd-sample-list">
+		    <article class="bd-sample-item">
+			<h3>Headers</h3>
+			<div>
+			    <img src="img/header1.JPG" alt="headers design wordpress">
+			    <img src="img/header2.JPG" alt="headers design wordpress">
+			    <img src="img/header3.JPG" alt="headers design wordpress">
+			    <img src="img/header4.JPG" alt="headers design wordpress">
+			    <img src="img/header5.JPG" alt="headers design wordpress">
+			    <img src="img/header6.JPG" alt="headers design wordpress">
+			    <img src="img/header7.JPG" alt="headers design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Buttons</h3>
+			<div>
+			    <img src="img/buttons.gif" alt="buttons gif design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Cursors</h3>
+			<div>
+			    <img src="img/cursor.gif" alt="cursor gif design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Cards</h3>
+			<div>
+			    <img src="img/cards.png" alt="card design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Forms</h3>
+			<div>
+			    <img src="img/form.png" alt="form design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Calendars</h3>
+			<div>
+			    <img src="img/calendar.png" alt="calendar design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Dropdown</h3>
+			<div>
+			    <img src="img/dropdown.png" alt="dropdown design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Erro 404</h3>
+			<div>
+			    <img src="img/error.jpg" alt="Error 404 design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Animated texts</h3>
+			<div>
+			    <img src="img/text.gif" alt="design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Headers</h3>
+			<div>
+			    <img src="img/header1.JPG" alt="headers design wordpress">
+			    <img src="img/header2.JPG" alt="headers design wordpress">
+			    <img src="img/header3.JPG" alt="headers design wordpress">
+			    <img src="img/header4.JPG" alt="headers design wordpress">
+			    <img src="img/header5.JPG" alt="headers design wordpress">
+			    <img src="img/header6.JPG" alt="headers design wordpress">
+			    <img src="img/header7.JPG" alt="headers design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Buttons</h3>
+			<div>
+			    <img src="img/buttons.gif" alt="buttons gif design wordpress">
+			</div>
+		    </article>
+		    <article class="bd-sample-item">
+			<h3>Cursors</h3>
+			<div>
+			    <img src="img/cursor.gif" alt="cursor gif design wordpress">
+			</div>
+		    </article>
+		</div>
+	    </div>
+	    <div class="bd-latest">
+		<h3 class="bd-latest-title title is-5">Latest components</h3>
+		<p class="bd-latest-subtitle subtitle">The newest components, included in the community</p>
+		<div class="bd-latest-container">
+		    <div class="wblock">
+			<div class="wblock-edit">
+			    <div class="wblock-custom">
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-pen-fancy fas"></i>
+				    </span>
+				    <div class="notranslate">Edit</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-floppy-disk"></i>
+				    </span>
+				    <div class="notranslate">Save</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-clone fas"></i>
+				    </span>
+				    <div class="notranslate">Clone</div>
+				</a>
+			    </div>
+			</div>
+			<div class="wblock-text">
+			    <div class="wblock-name">Button minimal</div>
+			    <div class="wblock-icons">
+				<span>
+				    <span>@</span><span>1.1</span>
+				</span>
+				<span>
+				    <span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				    <span>2</span>
+				</span>
+			    </div>
+			</div>
+		    </div>
+		    <div class="wblock">
+			<div class="wblock-edit">
+			    <div class="wblock-custom">
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-pen-fancy fas"></i>
+				    </span>
+				    <div class="notranslate">Edit</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-floppy-disk"></i>
+				    </span>
+				    <div class="notranslate">Save</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-clone fas"></i>
+				    </span>
+				    <div class="notranslate">Clone</div>
+				</a>
+			    </div>
+			</div>
+			<div class="wblock-text">
+			    <div class="wblock-name">Button minimal</div>
+			    <div class="wblock-icons">
+				<span>
+				    <span>@</span><span>1.1</span>
+				</span>
+				<span>
+				    <span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				    <span>2</span>
+				</span>
+			    </div>
+			</div>
+		    </div>
+		    <div class="wblock">
+			<div class="wblock-edit">
+			    <div class="wblock-custom">
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-pen-fancy fas"></i>
+				    </span>
+				    <div class="notranslate">Edit</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-floppy-disk"></i>
+				    </span>
+				    <div class="notranslate">Save</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-clone fas"></i>
+				    </span>
+				    <div class="notranslate">Clone</div>
+				</a>
+			    </div>
+			</div>
+			<div class="wblock-text">
+			    <div class="wblock-name">Button minimal</div>
+			    <div class="wblock-icons">
+				<span>
+				    <span>@</span><span>1.1</span>
+				</span>
+				<span>
+				    <span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				    <span>2</span>
+				</span>
+			    </div>
+			</div>
+		    </div>
+		    <div class="wblock">
+			<div class="wblock-edit">
+			    <div class="wblock-custom">
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-pen-fancy fas"></i>
+				    </span>
+				    <div class="notranslate">Edit</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-floppy-disk"></i>
+				    </span>
+				    <div class="notranslate">Save</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-clone fas"></i>
+				    </span>
+				    <div class="notranslate">Clone</div>
+				</a>
+			    </div>
+			</div>
+			<div class="wblock-text">
+			    <div class="wblock-name">Button minimal</div>
+			    <div class="wblock-icons">
+				<span>
+				    <span>@</span><span>1.1</span>
+				</span>
+				<span>
+				    <span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				    <span>2</span>
+				</span>
+			    </div>
+			</div>
+		    </div>
+		    <div class="wblock">
+			<div class="wblock-edit">
+			    <div class="wblock-custom">
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-pen-fancy fas"></i>
+				    </span>
+				    <div class="notranslate">Edit</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-floppy-disk"></i>
+				    </span>
+				    <div class="notranslate">Save</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-clone fas"></i>
+				    </span>
+				    <div class="notranslate">Clone</div>
+				</a>
+			    </div>
+			</div>
+			<div class="wblock-text">
+			    <div class="wblock-name">Button minimal</div>
+			    <div class="wblock-icons">
+				<span>
+				    <span>@</span><span>1.1</span>
+				</span>
+				<span>
+				    <span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				    <span>2</span>
+				</span>
+			    </div>
+			</div>
+		    </div>
+		    <div class="wblock">
+			<div class="wblock-edit">
+			    <div class="wblock-custom">
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-pen-fancy fas"></i>
+				    </span>
+				    <div class="notranslate">Edit</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-floppy-disk"></i>
+				    </span>
+				    <div class="notranslate">Save</div>
+				</a>
+				<a>
+				    <span class="icon is-small">
+					<i class="fa-solid fa-clone fas"></i>
+				    </span>
+				    <div class="notranslate">Clone</div>
+				</a>
+			    </div>
+			</div>
+			<div class="wblock-text">
+			    <div class="wblock-name">Button minimal</div>
+			    <div class="wblock-icons">
+				<span>
+				    <span>@</span><span>1.1</span>
+				</span>
+				<span>
+				    <span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				    <span>2</span>
+				</span>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	</main>
+	<section class="bd-library">
+	    <div class="bd-library-titles">
+		<h2 class="bd-library-title">Headers</h2>
+		<h2 class="bd-library-title">Buttons</h2>
+		<h2 class="bd-library-title">Cursor</h2>
+		<h2 class="bd-library-title">Cards</h2>
+		<h2 class="bd-library-title">Forms</h2>
+		<h2 class="bd-library-title">Calendars</h2>
+		<h2 class="bd-library-title">Dropdown</h2>
+		<h2 class="bd-library-title">Error 404</h2>
+		<h2 class="bd-library-title">Animated text</h2>
+		<h2 class="bd-library-title">All components</h2>
+	    </div>
+	    <div class="bd-library-name-components tabs is-medium">
+	      <ul>
+		  <!-- <li class="is-active"><a>Pictures</a></li>-->
+		<li><a class="bd-library-link" href="#">Headers</a></li>
+		<li><a class="bd-library-link" href="#">Buttons</a></li>
+		<li><a class="bd-library-link" href="#">Cursors</a></li>
+		<li><a class="bd-library-link" href="#">Cards</a></li>
+		<li><a class="bd-library-link" href="#">Forms</a></li>
+		<li><a class="bd-library-link" href="#">Calendars</a></li>
+		<li><a class="bd-library-link" href="#">Dropdown</a></li>
+		<li><a class="bd-library-link" href="#">Error 404</a></li>
+		<li><a class="bd-library-link" href="#">Animated</a></li>
+		<li><a class="bd-library-link" href="#">All</a></li>
+	      </ul>
+	    </div>
+	    <div class="bd-library-container">
+		<div class="wblock">
+		    <div class="wblock-edit">
+			<div class="wblock-custom">
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-pen-fancy fas"></i>
+				</span>
+				<div class="notranslate">Edit</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-floppy-disk"></i>
+				</span>
+				<div class="notranslate">Save</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-clone fas"></i>
+				</span>
+				<div class="notranslate">Clone</div>
+			    </a>
+			</div>
+		    </div>
+		    <div class="wblock-text">
+			<div class="wblock-name">Component</div>
+			<div class="wblock-icons">
+			    <span>
+				<span>@</span><span>1.1</span>
+			    </span>
+			    <span>
+				<span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				<span>2</span>
+			    </span>
+			</div>
+		    </div>
+		</div>
+		<div class="wblock">
+		    <div class="wblock-edit">
+			<div class="wblock-custom">
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-pen-fancy fas"></i>
+				</span>
+				<div class="notranslate">Edit</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-floppy-disk"></i>
+				</span>
+				<div class="notranslate">Save</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-clone fas"></i>
+				</span>
+				<div class="notranslate">Clone</div>
+			    </a>
+			</div>
+		    </div>
+		    <div class="wblock-text">
+			<div class="wblock-name">Component</div>
+			<div class="wblock-icons">
+			    <span>
+				<span>@</span><span>1.1</span>
+			    </span>
+			    <span>
+				<span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				<span>2</span>
+			    </span>
+			</div>
+		    </div>
+		</div>
+		<div class="wblock">
+		    <div class="wblock-edit">
+			<div class="wblock-custom">
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-pen-fancy fas"></i>
+				</span>
+				<div class="notranslate">Edit</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-floppy-disk"></i>
+				</span>
+				<div class="notranslate">Save</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-clone fas"></i>
+				</span>
+				<div class="notranslate">Clone</div>
+			    </a>
+			</div>
+		    </div>
+		    <div class="wblock-text">
+			<div class="wblock-name">Component</div>
+			<div class="wblock-icons">
+			    <span>
+				<span>@</span><span>1.1</span>
+			    </span>
+			    <span>
+				<span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				<span>2</span>
+			    </span>
+			</div>
+		    </div>
+		</div>
+		<div class="wblock">
+		    <div class="wblock-edit">
+			<div class="wblock-custom">
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-pen-fancy fas"></i>
+				</span>
+				<div class="notranslate">Edit</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-floppy-disk"></i>
+				</span>
+				<div class="notranslate">Save</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-clone fas"></i>
+				</span>
+				<div class="notranslate">Clone</div>
+			    </a>
+			</div>
+		    </div>
+		    <div class="wblock-text">
+			<div class="wblock-name">Component</div>
+			<div class="wblock-icons">
+			    <span>
+				<span>@</span><span>1.1</span>
+			    </span>
+			    <span>
+				<span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				<span>2</span>
+			    </span>
+			</div>
+		    </div>
+		</div>
+		<div class="wblock">
+		    <div class="wblock-edit">
+			<div class="wblock-custom">
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-pen-fancy fas"></i>
+				</span>
+				<div class="notranslate">Edit</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-floppy-disk"></i>
+				</span>
+				<div class="notranslate">Save</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-clone fas"></i>
+				</span>
+				<div class="notranslate">Clone</div>
+			    </a>
+			</div>
+		    </div>
+		    <div class="wblock-text">
+			<div class="wblock-name">Component</div>
+			<div class="wblock-icons">
+			    <span>
+				<span>@</span><span>1.1</span>
+			    </span>
+			    <span>
+				<span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				<span>2</span>
+			    </span>
+			</div>
+		    </div>
+		</div>
+		<div class="wblock">
+		    <div class="wblock-edit">
+			<div class="wblock-custom">
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-pen-fancy fas"></i>
+				</span>
+				<div class="notranslate">Edit</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-floppy-disk"></i>
+				</span>
+				<div class="notranslate">Save</div>
+			    </a>
+			    <a>
+				<span class="icon is-small">
+				    <i class="fa-solid fa-clone fas"></i>
+				</span>
+				<div class="notranslate">Clone</div>
+			    </a>
+			</div>
+		    </div>
+		    <div class="wblock-text">
+			<div class="wblock-name">Component</div>
+			<div class="wblock-icons">
+			    <span>
+				<span>@</span><span>1.1</span>
+			    </span>
+			    <span>
+				<span class="icon is-small"><i class="fa-solid fa-heart fas"></i></span>
+				<span>2</span>
+			    </span>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	</section>
+	<footer class="footer bd-footer">
+	    <div class="columns bd-footer-container bd-footer-colum">
+		<div class="column bd-footer-logo">
+		    <a class="content-logo notranslate" href="#">
+		      <img class="logo-box" src="img/logo-box.svg" width="56" height="14">
+		      <span class="logo-text1">box</span>
+		      <span class="logo-text2">components</span>
+		    </a>
+		</div>
+		<div class="column bd-footer-copyright">
+		    <p>© 2022 boxcomponents. Component copyrights belongs to their authors.</p>
+		</div>
+		<div class="column bd-footer-nav">
+		    <a class="privacy" href="">Pribacy</a>
+		    <a class="legal" href="">Legal</a>
+		    <a class="cookies" href="">Cookies</a>
+		    <a class="icon is-large" href="">
+			<i class="fa-brands fa-github fa-lg"></i>
+		    </a>
+		    <a class="icon is-large" href="">
+			<i class="fa-brands fa-twitter fa-lg"></i>
+		    </a>
+		</div>
+	    </div>
+	</footer>
+
+    <script src="https://kit.fontawesome.com/a0b95bce8c.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
